@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bootstrap Layout</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css">
+</head>
+
+<body>
+
+    <div class="container">
+        <div class="row bg-info text-white">
+            <nav class="navbar navbar-expand-xl navbar-light bg-light">
+                <div class="container-fluid">
+                    <a class="navbar-brand" href="#">Navbar</a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarBasic"
+                        aria-controls="navbarBasic" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse show" id="navbarBasic">
+                        <ul class="navbar-nav me-auto mb-2 mb-xl-0">
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="#">Home</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Link</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+                            </li>
+                        </ul>
+                        <form class="d-flex">
+                            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                            <button class="btn btn-outline-success" type="submit">Search</button>
+                        </form>
+                    </div>
+                </div>
+            </nav>
+
+        </div>
+        <div class="row">
+
+            <div class="col-2 bg-primary  text-white">
+                <ul class="list-group">
+                    <li class="list-group-item active">Detalles</li>
+                    <li class="list-group-item">Aficinoes</li>
+                    <li class="list-group-item">Educación</li>
+                    <li class="list-group-item">Experiencia Laboral</li>
+                </ul>
+
+            </div>
+            <div class="col-10 vh-100">
+                <div class="row">
+                    <div class="col-8 mx-auto">
+                        <img src="https://placehold.co/600x400" class="img-fluid  my-5" />
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-lg-4 col-md-6 col-12">
+                        <div class="card">
+                            <div class="card-header">
+                                Featured
+                            </div>
+                            <div class="card-body">
+                                <h5 class="card-title">Special title treatment</h5>
+                                <p class="card-text">With supporting text below as a natural lead-in to additional
+                                    content.</p>
+                                <a href="#" class="btn btn-outline-danger">Go somewhere</a>
+                            </div>
+                            <div class="card-footer text-muted">
+                                2 days ago
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-12">
+                        <div class="card">
+                            <div class="card-header">
+                                Featured
+                            </div>
+                            <div class="card-body">
+                                <h5 class="card-title">Special title treatment</h5>
+                                <p class="card-text">With supporting text below as a natural lead-in to additional
+                                    content.</p>
+                                <a href="#" class="btn btn-primary">Go somewhere</a>
+                            </div>
+                            <div class="card-footer text-muted">
+                                2 days ago
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-12">
+                        <div class="card">
+                            <div class="card-header">
+                                Featured
+                            </div>
+                            <div class="card-body">
+                                <h5 class="card-title">Special title treatment</h5>
+                                <p class="card-text">With supporting text below as a natural lead-in to additional
+                                    content.</p>
+                                <a href="#" class="btn btn-primary">Go somewhere</a>
+                            </div>
+                            <div class="card-footer text-muted">
+                                2 days ago
+                            </div>
+                        </div>
+                    </div>
+
+
+                </div>
+            </div>
+        </div>
+        <div class="row bg-info  text-white">FOOTER</div>
+    </div>
+</body>
+
+</html>
